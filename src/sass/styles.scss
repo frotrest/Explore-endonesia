@@ -64,3 +64,12 @@ body {
 .carousel-control-prev-icon {
   background-image: url(../icons/to-left.svg);
 }
+
+[data-animate] {
+    opacity: 0;
+    transition: opacity 0.6s ease;
+}
+  
+[data-animate].visible {
+    opacity: 1;
+}
