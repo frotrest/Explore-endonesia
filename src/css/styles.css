@@ -528,7 +528,7 @@
   margin-top: 30px;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .explore {
     background: url("../icons/boy@2x.png") no-repeat center/cover;
   }
@@ -676,7 +676,7 @@
     padding-bottom: 120px;
   }
 }
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hils {
     background-image: url("../icons/top@2x.png"), url("../icons/bottom@2x.png");
     background-repeat: no-repeat, no-repeat;
@@ -1366,7 +1366,7 @@ body {
   background: url("../icons/hero.png") no-repeat center/cover;
 }
 
-@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
     background: url("../icons/hero@2x.png") no-repeat center/cover;
   }
@@ -1396,4 +1396,13 @@ body {
 
 .carousel-control-prev-icon {
   background-image: url(../icons/to-left.svg);
+}
+
+[data-animate] {
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+[data-animate].visible {
+  opacity: 1;
 }
