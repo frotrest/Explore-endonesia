@@ -139,6 +139,7 @@
   position: absolute;
   right: -30px;
   bottom: 35px;
+  height: 125px;
 }
 @media (max-width: 1200px) {
   .footer .footer-content .to-hight {
