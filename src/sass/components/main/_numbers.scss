@@ -2,7 +2,7 @@
     background-color: #020C21;
     padding-top: 200px;
     padding-bottom: 225px;
-    @media (max-width: 1200px) {
+    @media (max-width: 1284px) {
         & {
             padding-top: 70px;
             padding-bottom: 70px;
@@ -19,7 +19,7 @@
             font-size: 60px;
             font-weight: 700;
             line-height: 150%;
-            @media (max-width: 1200px) {
+            @media (max-width: 1284px) {
                 & {
                     width: 314px;
                     color: rgb(255, 255, 255);
@@ -40,7 +40,7 @@
             letter-spacing: 0.5px;
             width: 484px;
             text-align: center;
-            @media (max-width: 1200px) {
+            @media (max-width: 1284px) {
                 & {
                     color: rgb(224, 224, 224);
                     font-family: 'DM Sans';
@@ -58,7 +58,7 @@
             justify-content: center;
             align-items: center;
             gap: 115px;
-            @media (max-width: 1200px) {
+            @media (max-width: 1284px) {
                 & {
                     display: flex;
                     flex-direction: column;
@@ -71,7 +71,7 @@
                 flex-direction: column;
                 align-items: center;
                 gap: 20px;
-                @media (max-width: 1200px) {
+                @media (max-width: 1284px) {
                     & {
                         display: flex;
                         flex-direction: column;
@@ -86,7 +86,7 @@
                     font-weight: 700;
                     line-height: 49.16px;
                     letter-spacing: 0.39px;
-                    @media (max-width: 1200px) {
+                    @media (max-width: 1284px) {
                         & {
                             color: rgb(221, 34, 66);
                             font-family: 'DM Sans';
@@ -105,7 +105,7 @@
                     letter-spacing: 0.5px;
                     width: 320px;
                     text-align: center;
-                    @media (max-width: 1200px) {
+                    @media (max-width: 1284px) {
                         & {
                             width: 314px;
                             color: rgb(224, 224, 224);

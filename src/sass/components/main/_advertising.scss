@@ -5,7 +5,7 @@
         justify-content: space-between;
         align-items: center;
         align-self: center;
-        @media (max-width: 1200px) {
+        @media (max-width: 1284px) {
             & {
                 display: flex;
                 flex-direction: column;
@@ -21,7 +21,7 @@
             gap: 20px;
             padding-left: 65px;
             padding-right: 190px;
-            @media (max-width: 1200px) {
+            @media (max-width: 1284px) {
                 & {
                     display: none;
                 }
@@ -47,7 +47,7 @@
                     border: 1px solid rgb(0, 0, 0);
                     background: rgb(0, 0, 0);
                     opacity: 0.6;
-                    @media (max-width: 1200px) {
+                    @media (max-width: 1284px) {
                         & {
                             display: flex;
                             flex-direction: column;
@@ -102,7 +102,7 @@
                         top: 35px;
                         bottom: 0;
                         left: 125px;
-                        @media (max-width: 1200px) {
+                        @media (max-width: 1284px) {
                             & {
                                 top: 13px;
                                 bottom: 0;
@@ -115,7 +115,7 @@
                             top: 102px;
                             bottom: 0;
                             left: 193px;
-                            @media (max-width: 1200px) {
+                            @media (max-width: 1284px) {
                                 & {
                                     top: 80px;
                                     bottom: 0;
@@ -129,7 +129,7 @@
         }
     }
 
-@media (max-width: 1200px) {
+@media (max-width: 1284px) {
     .advertising {
         display: flex;
         justify-content: center;
