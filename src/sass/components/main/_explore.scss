@@ -1,7 +1,7 @@
 .explore {
     padding-top: 130px;
     padding-bottom: 890px;
-    background: url(../icons/boy.png) no-repeat center / cover;
+    background: url(../icons/boy.webp) no-repeat center / cover;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -61,6 +61,6 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .explore {
-    background: url('../icons/boy@2x.png') no-repeat center / cover;
+    background: url('../icons/boy@2x.webp') no-repeat center / cover;
   }
 }

@@ -474,7 +474,7 @@
 .explore {
   padding-top: 130px;
   padding-bottom: 890px;
-  background: url(../icons/boy.png) no-repeat center/cover;
+  background: url(../icons/boy.webp) no-repeat center/cover;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -531,7 +531,7 @@
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .explore {
-    background: url("../icons/boy@2x.png") no-repeat center/cover;
+    background: url("../icons/boy@2x.webp") no-repeat center/cover;
   }
 }
 .numbers {
@@ -663,13 +663,13 @@
 }
 
 .hils {
-  background: url(../icons/left.png) no-repeat left/cover, url(../icons/right.png) no-repeat right/cover;
+  background: url(../icons/left.webp) no-repeat left/cover, url(../icons/right.webp) no-repeat right/cover;
   padding-top: 250px;
   padding-bottom: 250px;
 }
 @media (max-width: 1200px) {
   .hils {
-    background-image: url("../icons/top.png"), url("../icons/bottom.png");
+    background-image: url("../icons/top.webp"), url("../icons/bottom.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: top center, bottom center;
     background-size: cover, cover;
@@ -679,7 +679,7 @@
 }
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hils {
-    background-image: url("../icons/top@2x.png"), url("../icons/bottom@2x.png");
+    background-image: url("../icons/top@2x.webp"), url("../icons/top@2x.webp");
     background-repeat: no-repeat, no-repeat;
     background-position: top center, bottom center;
     background-size: cover, cover;
@@ -757,7 +757,7 @@
 }
 
 .video-block {
-  background: url(../icons/sahara.png) no-repeat center/cover;
+  background: url(../icons/sahara.webp) no-repeat center/cover;
   padding-top: 140px;
   padding-bottom: 250px;
 }
@@ -1364,12 +1364,12 @@ body {
   }
 }
 .header {
-  background: url("../icons/hero.png") no-repeat center/cover;
+  background: url("../icons/hero.webp") no-repeat center/cover;
 }
 
 @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .header {
-    background: url("../icons/hero@2x.png") no-repeat center/cover;
+    background: url("../icons/hero@2x.webp") no-repeat center/cover;
   }
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
@@ -1399,11 +1399,80 @@ body {
   background-image: url(../icons/to-left.svg);
 }
 
-[data-animate] {
-  opacity: 0;
-  transition: opacity 0.6s ease;
+.animate__animated {
+  animation-duration: 0.8s;
+  animation-fill-mode: both;
 }
 
-[data-animate].visible {
-  opacity: 1;
+[data-animate] {
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animate__fadeIn {
+  animation-name: fadeIn;
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInLeft {
+  animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(50px, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInRight {
+  animation-name: fadeInRight;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+.animate__fadeInUp {
+  animation-name: fadeInUp;
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/dm-sans-v17-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v51-latin-regular.woff2") format("woff2");
 }
